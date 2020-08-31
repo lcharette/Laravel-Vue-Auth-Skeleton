@@ -1,9 +1,15 @@
 <?php
+/**
+ * Laravel Vue & Auth Skeleton
+ *
+ * @author    Louis Charette
+ * @copyright Copyright (c) 2020 Louis Charette
+ * @link      https://github.com/lcharette/Laravel-Vue-Auth-Skeleton
+ * @license   https://github.com/lcharette/Laravel-Vue-Auth-Skeleton/blob/master/LICENSE.md (MIT License)
+ */
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

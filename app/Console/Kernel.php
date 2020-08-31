@@ -1,4 +1,12 @@
 <?php
+/**
+ * Laravel Vue & Auth Skeleton
+ *
+ * @author    Louis Charette
+ * @copyright Copyright (c) 2020 Louis Charette
+ * @link      https://github.com/lcharette/Laravel-Vue-Auth-Skeleton
+ * @license   https://github.com/lcharette/Laravel-Vue-Auth-Skeleton/blob/master/LICENSE.md (MIT License)
+ */
 
 namespace App\Console;
 
@@ -19,7 +27,7 @@ class Kernel extends ConsoleKernel
     /**
      * Define the application's command schedule.
      *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @param  \Illuminate\Console\Scheduling\Schedule $schedule
      * @return void
      */
     protected function schedule(Schedule $schedule)

@@ -1,11 +1,11 @@
 <?php
 
-$header = 'My Site
+$header = 'Laravel Vue & Auth Skeleton
 
 @author    Louis Charette
 @copyright Copyright (c) 2020 Louis Charette
-@link      https://github.com/lcharette/MySite
-@license   https://github.com/lcharette/MySite/blob/master/LICENSE.md (MIT License)';
+@link      https://github.com/lcharette/Laravel-Vue-Auth-Skeleton
+@license   https://github.com/lcharette/Laravel-Vue-Auth-Skeleton/blob/master/LICENSE.md (MIT License)';
 
 $rules = [
     '@PSR2'                                       => true,

@@ -22,10 +22,10 @@
 [app-style-develop]: https://github.com/lcharette/Laravel-Vue-Auth-Skeleton/workflows/Style%20CI/badge.svg?branch=develop
 [app-style]: https://github.com/lcharette/Laravel-Vue-Auth-Skeleton/actions?query=workflow%3A%22Style+CI%22
 
-BAsic skeleton app based on Laravel, with Vue.js frontend 
+Basic skeleton app based on Laravel, with Vue.js frontend and basic authentification.
 
 
-** This is still a work in progress and to be used as reference only**
+**This is still a work in progress and to be used as reference only**
 
 # TODO 
 - Implement registration frontend
