@@ -1,0 +1,5 @@
+parameters:
+  level: max
+  ignoreErrors:
+    # Ignore false positive PHPStan can't understand, until we can fix it
+    - '#Call to an undefined method Illuminate\\Contracts\\Routing\\ResponseFactory|Illuminate\\Http\\Response::json().#'
