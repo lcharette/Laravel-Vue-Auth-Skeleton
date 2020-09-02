@@ -32,3 +32,37 @@ Basic skeleton app based on Laravel, with Vue.js frontend and basic authentifica
 - Implement password forget
 - Implement user verification 
 - Add frontend tests
+
+# Installation 
+
+```
+composer install
+npm install
+```
+
+You then need to setup the db (copy `.env.example` to `.env` and fill in database information) and run migrations : 
+
+```
+php artisan migrate
+```
+
+Finally generate Laravel app key and the JWT Secret :
+
+```
+php artisan key:generate
+php artisan jwt:secret
+```
+
+# To run 
+
+Run simutanously : 
+
+```
+php artisan serve
+```
+
+```
+npm run watch-poll
+```
+
+Site will be accessible at http://localhost:8000/ 
